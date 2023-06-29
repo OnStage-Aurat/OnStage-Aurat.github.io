@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0d1117;
+    background-color: #000000;
+    background-image: url(../img/AURAT\ Logo\ HD.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.5);
 }
 header{
     width: 100%;
