@@ -40,7 +40,7 @@ footer a{
     text-decoration: none;
     color:  #e9e9e9;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 350%;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -51,12 +51,47 @@ a:active, a:hover{
     box-shadow: #5f6d7a 4px 4px 0 0;
     transform: translate(2px, 2px);
 }
+i{
+    font-size: 150% !important;
+    margin-left: 20px;
+}
 div{
-    position: absolute;
-    background-color: white;
-    height: 100vh;
-    width: 60vw;
-    z-index: -1;
-    opacity: 0.9;
-    margin-left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px){
+    header{
+        margin-top: 10vh;
+        height: 50vh;
+    }
+    iframe{
+        width: 90%;
+        height: 70%;
+        border: red 5px solid;
+        border-radius: 10px;
+    }
+    footer a{
+        width: 90%;
+        background-color: #1c2025;
+        padding: 5vh 15vw;
+        border-radius: 50px;
+        text-decoration: none;
+        color:  #e9e9e9;
+        font-weight: bold;
+        font-size: 300%;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: #5f6d7a 8px 8px 0 0;
+    }
+    a:active, a:hover{
+        transition: all 0.3s ease;
+        box-shadow: #5f6d7a 4px 4px 0 0;
+        transform: translate(2px, 2px);
+    }
+    i{
+        font-size: 200% !important;
+    }
 }
